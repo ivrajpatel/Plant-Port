@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858857121146",
+    "project_id": "plantport-6d8bc",
+    "storage_bucket": "plantport-6d8bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858857121146:android:440a983949fcd9e38462c3",
+        "android_client_info": {
+          "package_name": "com.example.plant_port"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHw-_94LBWA3VAX6a6tNZp21W6BWGbGYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
