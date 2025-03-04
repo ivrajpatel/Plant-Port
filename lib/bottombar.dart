@@ -32,7 +32,7 @@ class _BottomBarState extends State<BottomBar> {
   final List<String> names = [
     'Reminder',
     'Explore',
-    '', // Empty string for the middle item
+    '',
     'Care Guide',
     'My Plants',
   ];
