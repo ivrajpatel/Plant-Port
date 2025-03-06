@@ -2,7 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:plant_port/bottombar.dart';
-import 'package:plant_port/screens/authentication/registerscreen.dart' show RegisterScreen;
+import 'package:plant_port/screens/authentication/registerscreen.dart'
+    show RegisterScreen;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'change_password.dart';
@@ -32,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text("Signed in successfully!")),
       );
-     Get.offAll(BottomBar());
+      Get.offAll(BottomBar());
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text("Error: Plese Enter required details")),
@@ -84,13 +85,14 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 8),
               GestureDetector(
-                onTap:() {
+                onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const ChangePassword()),
+                    MaterialPageRoute(
+                        builder: (context) => const ChangePassword()),
                   );
                 },
-                child: Text("Forgot your password?",
+                child: Text("Reset your password?",
                     style: TextStyle(color: Colors.green, fontSize: 16)),
               ),
               SizedBox(height: 16),
